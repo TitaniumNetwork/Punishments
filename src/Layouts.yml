@@ -1,0 +1,47 @@
+Message:
+  DDos:
+    - '%PREFIX% &7You have been IP banned for DDos Threats'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&eUnban Application: &8\xbb &c&nwww.google.com"
+  Chargeback:
+    - '%PREFIX% &7You have been IP banned for Chargeback'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&eUnban Application: &8\xbb &c&nwww.google.com"
+  KYS:
+    - '%PREFIX% &7You have been banned for saying KYS'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&eUnban Application: &8\xbb &c&nwww.google.com"
+  Abuse:
+    - '%PREFIX% &7You have been banned for Abuse'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&eUnban Application: &8\xbb &c&nwww.google.com"
+  OwnerDis:
+    - '%PREFIX% &7You have been banned for Owner Disrespect'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&eUnban Application: &8\xbb &c&nwww.google.com"
+  Hacking:
+    - '%PREFIX% &7You have been banned for Hacking'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&eUnban Application: &8\xbb &c&nwww.google.com"
+  MaxWarnings:
+    - '%PREFIX% &7You have been banned for reaching 10 warnings!'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&eUnban Application: &8\xbb &c&nwww.google.com"
+
+Time:
+  Advertising:
+    - '30m'
+    - '2h'
+    - '12h'
+    - '1d'
+    - '2d'
+    - '1w'
+    - '4w'
+    - 'perma'

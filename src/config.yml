@@ -1,0 +1,45 @@
+TimeDiff: 0
+
+MuteCommands:
+- 'me'
+- 'say'
+- 'msg'
+- 'message'
+- 'tell'
+- 'whisper'
+- 'email'
+
+DateFormat: "dd.MM.yyyy-HH:mm"
+
+UUID-Fetcher:
+  Enabled: true
+  Intern: true
+  REST-API:
+    URL: "https://api.mojang.com/users/profiles/minecraft/%NAME%?at=%TIMESTAMP%"
+    Key: "id"
+  BackUp-API:
+    URL: "https://us.mc-api.net/v3/uuid/%NAME%"
+    Key: "uuid"
+
+WarnActions:
+  2: "kick %PLAYER% &c&oYou have received 2 warnings!"
+  3: "tempban %PLAYER% 10m &c&oYou have received 3 warnings!"
+  4: "tempban %PLAYER% 30m &c&oYou have received 4 warnings!"
+  5: "tempban %PLAYER% 2h &c&oYou have received 5 warnings!"
+  6: "tempban %PLAYER% 12h &c&oYou have received 6 warnings!"
+  7: "tempban %PLAYER% 1d &c&oYou have received 7 warnings!"
+  8: "tempban %PLAYER% 2d &c&oYou have received 8 warnings!"
+  9: "tempban %PLAYER% 1w &c&oYou have received 9 warnings, this is your last chance!"
+  10: "ban %PLAYER% @MaxWarnings"
+
+TempPerms:
+  1: 600 #10min
+  2: 1800 #30min
+  3: 3600 #1hour
+  4: 7200 #2hours
+  5: 21600 #6hours
+  6: 43200 #12hours
+  7: 86400 #1day
+  8: 172800 #2days
+  9: 604800 #1week
+  10: 1209600 #2weeks
